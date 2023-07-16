@@ -17,6 +17,7 @@
 		98E59B6B2A5B5A2B0054366E /* bouldertagebuchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E59B6A2A5B5A2B0054366E /* bouldertagebuchTests.swift */; };
 		98E59B752A5B5A2B0054366E /* bouldertagebuchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E59B742A5B5A2B0054366E /* bouldertagebuchUITests.swift */; };
 		98E59B772A5B5A2B0054366E /* bouldertagebuchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E59B762A5B5A2B0054366E /* bouldertagebuchUITestsLaunchTests.swift */; };
+		98EB614B2A64554700A71E8A /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB614A2A64554700A71E8A /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		98E59B702A5B5A2B0054366E /* bouldertagebuchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bouldertagebuchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E59B742A5B5A2B0054366E /* bouldertagebuchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bouldertagebuchUITests.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		98E59B762A5B5A2B0054366E /* bouldertagebuchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bouldertagebuchUITestsLaunchTests.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		98EB614A2A64554700A71E8A /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				98E59B5E2A5B5A2B0054366E /* LaunchScreen.storyboard */,
 				98E59B612A5B5A2B0054366E /* Info.plist */,
 				98E59B592A5B5A290054366E /* bouldertagebuch.xcdatamodeld */,
+				98EB614C2A6460AB00A71E8A /* UI */,
 			);
 			path = bouldertagebuch;
 			sourceTree = "<group>";
@@ -128,6 +131,14 @@
 				98E59B762A5B5A2B0054366E /* bouldertagebuchUITestsLaunchTests.swift */,
 			);
 			path = bouldertagebuchUITests;
+			sourceTree = "<group>";
+		};
+		98EB614C2A6460AB00A71E8A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				98EB614A2A64554700A71E8A /* UIColor+Extensions.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98EB614B2A64554700A71E8A /* UIColor+Extensions.swift in Sources */,
 				98E59B5B2A5B5A290054366E /* bouldertagebuch.xcdatamodeld in Sources */,
 				98E59B552A5B5A290054366E /* ViewController.swift in Sources */,
 				98E59B512A5B5A290054366E /* AppDelegate.swift in Sources */,
