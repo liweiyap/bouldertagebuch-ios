@@ -94,8 +94,6 @@
 				98E59B4F2A5B5A290054366E /* bouldertagebuch */,
 				98E59B692A5B5A2B0054366E /* bouldertagebuchTests */,
 				98E59B732A5B5A2B0054366E /* bouldertagebuchUITests */,
-				98EB61572A6D969C00A71E8A /* de.lproj */,
-				98EB61502A6D960300A71E8A /* en.lproj */,
 				98E59B4E2A5B5A290054366E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,6 +121,8 @@
 				98E59B592A5B5A290054366E /* bouldertagebuch.xcdatamodeld */,
 				98EB614C2A6460AB00A71E8A /* UI */,
 				98EB614D2A6D929900A71E8A /* Utility */,
+				98EB61572A6D969C00A71E8A /* de.lproj */,
+				98EB61502A6D960300A71E8A /* en.lproj */,
 			);
 			path = bouldertagebuch;
 			sourceTree = "<group>";
