@@ -33,6 +33,9 @@
                             <constraint firstItem="uMu-oR-Rqm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="p8Z-dW-Bou"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mainTitle" destination="uMu-oR-Rqm" id="Eg5-V1-5cy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98D524AE2A89039700178944 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D524AD2A89039700178944 /* UIHelper.swift */; };
+		98D524B22A890C4E00178944 /* UIContentSizeCategoryAdjusting+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D524B12A890C4E00178944 /* UIContentSizeCategoryAdjusting+Extensions.swift */; };
 		98E59B512A5B5A290054366E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E59B502A5B5A290054366E /* AppDelegate.swift */; };
 		98E59B532A5B5A290054366E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E59B522A5B5A290054366E /* SceneDelegate.swift */; };
 		98E59B552A5B5A290054366E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E59B542A5B5A290054366E /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98D524AD2A89039700178944 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		98D524B12A890C4E00178944 /* UIContentSizeCategoryAdjusting+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentSizeCategoryAdjusting+Extensions.swift"; sourceTree = "<group>"; };
 		98E59B4D2A5B5A290054366E /* bouldertagebuch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bouldertagebuch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E59B502A5B5A290054366E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		98E59B522A5B5A290054366E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; wrapsLines = 0; };
@@ -147,6 +151,8 @@
 			children = (
 				98EB614A2A64554700A71E8A /* UIColor+Extensions.swift */,
 				98EB615B2A6DA68300A71E8A /* UILabel+Extensions.swift */,
+				98D524B12A890C4E00178944 /* UIContentSizeCategoryAdjusting+Extensions.swift */,
+				98D524AD2A89039700178944 /* UIHelper.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -296,9 +302,11 @@
 				98E59B5B2A5B5A290054366E /* bouldertagebuch.xcdatamodeld in Sources */,
 				98E59B552A5B5A290054366E /* ViewController.swift in Sources */,
 				98EB614F2A6D933100A71E8A /* Localizable.swift in Sources */,
+				98D524B22A890C4E00178944 /* UIContentSizeCategoryAdjusting+Extensions.swift in Sources */,
 				98E59B512A5B5A290054366E /* AppDelegate.swift in Sources */,
 				98E59B532A5B5A290054366E /* SceneDelegate.swift in Sources */,
 				98EB615C2A6DA68300A71E8A /* UILabel+Extensions.swift in Sources */,
+				98D524AE2A89039700178944 /* UIHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
