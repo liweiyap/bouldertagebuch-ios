@@ -22,7 +22,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="titleMain"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="mXibLocKey" value="titleMain"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
                         </subviews>
@@ -34,7 +34,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="mainTitle" destination="uMu-oR-Rqm" id="Eg5-V1-5cy"/>
+                        <outlet property="mMainTitle" destination="uMu-oR-Rqm" id="Eg5-V1-5cy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

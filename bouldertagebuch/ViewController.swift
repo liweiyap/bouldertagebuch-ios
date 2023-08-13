@@ -8,12 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var mainTitle: UILabel!
+    @IBOutlet weak var mMainTitle: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.backgroundSemantic
-        mainTitle.setChalkdusterScalability(textStyle: .headline, fontSize: UIHelper.sTitleFontSize)
+        view.backgroundColor = UIColor.sBackgroundSemantic
+        mMainTitle.setChalkdusterScalability(textStyle: .headline, fontSize: UIHelper.sTitleFontSize)
     }
 
 

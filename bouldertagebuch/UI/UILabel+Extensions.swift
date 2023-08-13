@@ -8,10 +8,10 @@
 import UIKit
 
 extension UILabel: XIBLocalizable {
-    @IBInspectable var xibLocKey: String? {
+    @IBInspectable var mXibLocKey: String? {
         get { return nil }
         set(key) {
-            text = key?.localized
+            text = key?.mLocalized
         }
     }
 }

@@ -8,15 +8,15 @@
 import Foundation
 
 protocol Localizable {
-    var localized: String { get }
+    var mLocalized: String { get }
 }
 
 extension String: Localizable {
-    var localized: String {
+    var mLocalized: String {
         return NSLocalizedString(self, comment: "")
     }
 }
 
 protocol XIBLocalizable {
-    var xibLocKey: String? { get set }
+    var mXibLocKey: String? { get set }
 }
