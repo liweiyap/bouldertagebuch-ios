@@ -25,16 +25,35 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="mXibLocKey" value="titleMain"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="s9R-qT-1nW" customClass="BubbleLayout" customModule="bouldertagebuch" customModuleProvider="target">
+                                <rect key="frame" x="16" y="119.00000000000001" width="361" height="37.666666666666671"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Routes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uQ0-9j-mLk">
+                                        <rect key="frame" x="8" y="8.0000000000000018" width="345" height="21.666666666666671"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="mXibLocKey" value="titleTodayRouteCountBubble"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <constraints>
                             <constraint firstItem="uMu-oR-Rqm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="3cM-ew-Yzs"/>
+                            <constraint firstItem="s9R-qT-1nW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="AmW-EF-3wQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uMu-oR-Rqm" secondAttribute="trailing" constant="16" id="E3X-uf-3sF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s9R-qT-1nW" secondAttribute="trailing" constant="16" id="YpV-Hc-Sgf"/>
                             <constraint firstItem="uMu-oR-Rqm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="p8Z-dW-Bou"/>
+                            <constraint firstItem="s9R-qT-1nW" firstAttribute="top" secondItem="uMu-oR-Rqm" secondAttribute="bottom" constant="16" id="yjh-zg-xW2"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="mMainTitle" destination="uMu-oR-Rqm" id="Eg5-V1-5cy"/>
+                        <outlet property="mTodayRouteCountBubbleTitle" destination="uQ0-9j-mLk" id="owe-3Y-3XK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

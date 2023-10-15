@@ -8,7 +8,10 @@
 import UIKit
 
 struct UIHelper {
-    static let sTitleFontSize: CGFloat = 22
+    // MARK: - dimens (font size)
+
+    static let sScreenTitleFontSize: CGFloat = 22
+    static let sBubbleTitleFontSize: CGFloat = 17
 
     static func createCustomFont(fontName: String, fontSize: CGFloat) -> UIFont {
         guard let customFont = UIFont(name: fontName, size: fontSize) else {
@@ -22,4 +25,12 @@ struct UIHelper {
 
         return customFont
     }
+
+    // MARK: - dimens (padding)
+
+    static let sBubblePadding: CGFloat = 16
+
+    // MARK: - dimens (corner radius)
+
+    static let sBubbleCornerRadius: CGFloat = 16
 }

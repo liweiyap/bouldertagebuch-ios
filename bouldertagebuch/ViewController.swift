@@ -9,11 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var mMainTitle: UILabel!
+    @IBOutlet weak var mTodayRouteCountBubbleTitle: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.sBackgroundSemantic
-        mMainTitle.setChalkdusterScalability(textStyle: .headline, fontSize: UIHelper.sTitleFontSize)
+        mMainTitle.setChalkdusterScalability(textStyle: .headline, fontSize: UIHelper.sScreenTitleFontSize)
+        mTodayRouteCountBubbleTitle.setChalkdusterScalability(textStyle: .subheadline, fontSize: UIHelper.sBubbleTitleFontSize)
     }
 
 
